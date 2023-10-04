@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with divs</title>
+</head>
+<body>
+   <style>
+    .parentdiv{
+        background-color: blueviolet;
+        width: 70%; height: 50%;
+        margin: auto;
+        padding-left: 20%;
+    }
+   </style>
+    <div class="parentdiv"> <h1>Working with divs</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Blanditiis quisquam est dolore sunt 
+            aliquid iure vel dolorum provident laudantium 
+            reprehenderit. Doloribus ratione esse molestias?
+             Iure quo consectetur esse eligendi minus!</p>
+    
+    <!--PARENT DIV WITH 2 NESTED DIVS-->
+    <div>
+        <h1 class="childdiv1"> DIV ONE</h1>
+<style>
+    .childdiv1{float: left;
+        background-color: rgb(255, 0, 64);
+        width: fit-content
+        
+    }
+    .childdiv2{
+        background-color: aquamarine;
+        width: fit-content; float: right;
+    }
+
+</style>
+</div>
+
+
+        <div class="childdiv2" >
+            <h1> DIV TWO</h1></div>
+            <!--parent div two-->
+    
+            <div class="childdiv3"><h1>div three</h1>
+                <style>
+                    .chiddiv3{
+                        background-color: brown;
+                        width: fit-content;
+                        margin: auto;
+                        float: left;
+                    }
+                </style>
+            </div>
+            <div class="childdiv4"><h1>div four</h1>
+                <style>
+                    .chiddiv4{
+                        background-color: bisque;
+                        width: fit-content;
+                        margin: auto;
+                        float: right;
+                    }
+                </style>
+            </div>
+
+</body>
+</html>
